@@ -2,33 +2,51 @@ header {
   background: white;
 }
 
-.Menüleiste{
-  background-color: rgb(206, 162, 82);
-  display: flex;
-  justify-content: baseline;
+body {
+  background-color: whitesmoke;
 }
 
-nav ul{
+footer {
+  font-family: sans-serif;
+  text-align: right;
+  background: white;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.Menüleiste {
+  background-color: rgb(138, 123, 96);
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
   list-style: none;
   border: none;
 }
 
+.menuepoint {
+  display: flex;
+  flex-flow: nowrap;
+}
+
 h1 {
-  color: #a3b18a;
+  color: #black;
   font-family: sans-serif;
   text-align: center;
 }
 
 .cover {
-  width: 630px;
+  object-fit: cover;
+  display: flex;
   justify-content: center;
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 p {
   font-family: sans-serif;
   text-align: center;
+  font-size: 20px;
 }
 
 ul {
@@ -47,42 +65,47 @@ img {
   height: auto;
 }
 
-.impressions img:hover {
+.pictures img:hover {
   opacity: 0.7;
 }
 
-body {
-  background-color: whitesmoke;
-}
+.pictures{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  margin: 5px;
 
+}
 a {
-  color: #588157;
+  color: #black;
   font-family: sans-serif;
-  position: absolute;
+  display: flex;
+  justify-content: center;
   left: 70%;
   font-size: 20px;
   padding: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
   background: white;
+  text-decoration: none;
 }
 
-footer {
-  font-family: sans-serif;
-  text-align: right;
-  background: white;
-  margin-top: 3%;
-}
 
 .bold {
   font-weight: bold;
   font-size: 20px;
 }
 
-.map{
+.map {
+  object-fit: fill;
   width: 500px;
-  height: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
-.contact{
+.contact {
   background-color: rgb(158, 119, 119);
   margin: 5%;
   padding: 5%;
