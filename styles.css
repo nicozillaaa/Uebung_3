@@ -21,10 +21,9 @@ h1 {
 
 .cover {
   width: 630px;
-  position: relative;
+  justify-content: center;
   margin-left: 5%;
   margin-right: 5%;
-  opacity: 1;
 }
 
 p {
@@ -87,4 +86,5 @@ footer {
   background-color: rgb(158, 119, 119);
   margin: 5%;
   padding: 5%;
+  font-family: sans-serif;
 }
