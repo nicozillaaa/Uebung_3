@@ -10,7 +10,7 @@ header {
 
 nav ul{
   list-style: none;
-  padding: 5%;
+  border: none;
 }
 
 h1 {
@@ -76,4 +76,9 @@ footer {
 .bold {
   font-weight: bold;
   font-size: 20px;
+}
+
+.map{
+  width: 500px;
+  height: 300px;
 }
