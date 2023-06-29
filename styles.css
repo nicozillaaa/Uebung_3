@@ -70,13 +70,12 @@ img {
   opacity: 0.7;
 }
 
-.pictures{
+.pictures {
   width: 600px;
   display: flex;
   flex-direction: column;
-  align-content: stretch;
+  justify-items: center;
   margin: 5px;
-
 }
 a {
   color: #black;
