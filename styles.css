@@ -19,6 +19,7 @@ footer {
   background-color: rgb(138, 123, 96);
   display: flex;
   justify-content: flex-end;
+  height: 100px;
 }
 
 nav ul {
@@ -98,11 +99,9 @@ a {
 }
 
 .map {
-  object-fit: fill;
-  width: 500px;
-  height: auto;
-  display: flex;
-  justify-content: center;
+  width: 1000px;
+  height: 500px;
+  margin-left: 25%;
 }
 
 .contact {
